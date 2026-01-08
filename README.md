@@ -118,7 +118,7 @@ The runtime terminates automatically when an episode ends or when a defined term
 ---
 
 
-## Core Runtime Components in ORCA-Next
+# Core Runtime Components in ORCA-Next
 
 ### Runtime
 
