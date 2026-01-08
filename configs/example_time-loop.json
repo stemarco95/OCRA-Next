@@ -1,0 +1,58 @@
+{
+  "mode": "time-loop-based",
+  "max_time": 10,
+  "modules": [
+    {
+      "id": "sensor",
+      "type": "Sensor",
+      "inputs": ["true_temp"],
+      "outputs": ["raw_temp"],
+      "cycle": 0.2,
+      "config": { "noise": 0.1 }
+    },
+    {
+      "id": "estimator",
+      "type": "Estimator",
+      "inputs": ["raw_temp"],
+      "outputs": ["state"],
+      "cycle": 0.2,
+      "config": { "alpha": 0.3 }
+    },
+    {
+      "id": "controller",
+      "type": "Controller",
+      "inputs": ["state"],
+      "outputs": ["raw_action"],
+      "cycle": 0.2,
+      "config": {
+        "low": 20.0,
+        "high": 25.0,
+        "normal_delta": 1.5,
+        "spike_delta": 10.0,
+        "spike_prob": 0.1
+      }
+    },
+    {
+      "id": "shield",
+      "type": "Shield",
+      "inputs": ["raw_action"],
+      "outputs": ["safe_action"],
+      "cycle": 0.2,
+      "config": {}
+    },
+    {
+      "id": "thermostat_env",
+      "type": "ThermostatEnv",
+      "inputs": ["safe_action"],
+      "outputs": ["true_temp"],
+      "cycle": 0.2,
+      "is_env": true,
+      "config": {
+        "initial_temp": 22.0,
+        "alpha": 0.5,
+        "drift_std": 0.1,
+        "target_temp": 22.0
+      }
+    }
+  ]
+}

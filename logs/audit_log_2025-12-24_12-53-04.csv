@@ -1,0 +1,882 @@
+timestamp,event_type,details
+1766577184.661,info,msg=Module loaded: ThermostatEnv from modules.thermostat_env
+1766577184.662,info,msg=Module loaded: Sensor from modules.sensor
+1766577184.662,info,msg=Module loaded: Controller from modules.controller
+1766577184.662,info,msg=Module loaded: Shield from modules.shield
+1766577184.662,info,msg=Module loaded: Estimator from modules.estimator
+1766577184.663,runtime_started,mode=step-based
+1766577184.663,episode_reset,
+1766577184.663,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.663,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.663,module_execution,module=sensor
+1766577184.663,message_sent,"topic=state, sender=estimator"
+1766577184.663,module_execution,module=estimator
+1766577184.663,message_sent,"topic=raw_action, sender=controller"
+1766577184.663,module_execution,module=controller
+1766577184.663,message_sent,"topic=safe_action, sender=shield"
+1766577184.663,module_execution,module=shield
+1766577184.663,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.663,module_execution,module=thermostat_env
+1766577184.663,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.663,module_execution,module=sensor
+1766577184.663,message_sent,"topic=state, sender=estimator"
+1766577184.663,module_execution,module=estimator
+1766577184.663,message_sent,"topic=raw_action, sender=controller"
+1766577184.663,module_execution,module=controller
+1766577184.663,message_sent,"topic=safe_action, sender=shield"
+1766577184.663,module_execution,module=shield
+1766577184.663,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.663,module_execution,module=thermostat_env
+1766577184.663,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.663,module_execution,module=sensor
+1766577184.663,message_sent,"topic=state, sender=estimator"
+1766577184.663,module_execution,module=estimator
+1766577184.663,message_sent,"topic=raw_action, sender=controller"
+1766577184.663,module_execution,module=controller
+1766577184.663,message_sent,"topic=safe_action, sender=shield"
+1766577184.663,module_execution,module=shield
+1766577184.663,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.663,module_execution,module=thermostat_env
+1766577184.663,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.663,module_execution,module=sensor
+1766577184.663,message_sent,"topic=state, sender=estimator"
+1766577184.663,module_execution,module=estimator
+1766577184.663,message_sent,"topic=raw_action, sender=controller"
+1766577184.663,module_execution,module=controller
+1766577184.663,message_sent,"topic=safe_action, sender=shield"
+1766577184.663,module_execution,module=shield
+1766577184.663,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.663,module_execution,module=thermostat_env
+1766577184.663,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.663,module_execution,module=sensor
+1766577184.663,message_sent,"topic=state, sender=estimator"
+1766577184.663,module_execution,module=estimator
+1766577184.663,message_sent,"topic=raw_action, sender=controller"
+1766577184.663,module_execution,module=controller
+1766577184.663,message_sent,"topic=safe_action, sender=shield"
+1766577184.663,module_execution,module=shield
+1766577184.663,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.663,module_execution,module=thermostat_env
+1766577184.663,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.663,module_execution,module=sensor
+1766577184.663,message_sent,"topic=state, sender=estimator"
+1766577184.663,module_execution,module=estimator
+1766577184.663,message_sent,"topic=raw_action, sender=controller"
+1766577184.663,module_execution,module=controller
+1766577184.663,message_sent,"topic=safe_action, sender=shield"
+1766577184.663,module_execution,module=shield
+1766577184.663,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.663,module_execution,module=thermostat_env
+1766577184.663,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.663,module_execution,module=sensor
+1766577184.663,message_sent,"topic=state, sender=estimator"
+1766577184.663,module_execution,module=estimator
+1766577184.663,message_sent,"topic=raw_action, sender=controller"
+1766577184.663,module_execution,module=controller
+1766577184.663,message_sent,"topic=safe_action, sender=shield"
+1766577184.663,module_execution,module=shield
+1766577184.663,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.663,module_execution,module=thermostat_env
+1766577184.663,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.663,module_execution,module=sensor
+1766577184.663,message_sent,"topic=state, sender=estimator"
+1766577184.663,module_execution,module=estimator
+1766577184.663,message_sent,"topic=raw_action, sender=controller"
+1766577184.663,module_execution,module=controller
+1766577184.663,message_sent,"topic=safe_action, sender=shield"
+1766577184.663,module_execution,module=shield
+1766577184.663,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.663,module_execution,module=thermostat_env
+1766577184.663,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.663,module_execution,module=sensor
+1766577184.663,message_sent,"topic=state, sender=estimator"
+1766577184.663,module_execution,module=estimator
+1766577184.663,message_sent,"topic=raw_action, sender=controller"
+1766577184.663,module_execution,module=controller
+1766577184.663,message_sent,"topic=safe_action, sender=shield"
+1766577184.663,module_execution,module=shield
+1766577184.663,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.663,module_execution,module=thermostat_env
+1766577184.663,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.663,module_execution,module=sensor
+1766577184.664,message_sent,"topic=state, sender=estimator"
+1766577184.664,module_execution,module=estimator
+1766577184.664,message_sent,"topic=raw_action, sender=controller"
+1766577184.664,module_execution,module=controller
+1766577184.664,shield_override,"module=shield, raw_delta=10.0, safe_delta=5.0"
+1766577184.664,message_sent,"topic=safe_action, sender=shield"
+1766577184.664,module_execution,module=shield
+1766577184.664,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.664,module_execution,module=thermostat_env
+1766577184.664,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.664,module_execution,module=sensor
+1766577184.664,message_sent,"topic=state, sender=estimator"
+1766577184.664,module_execution,module=estimator
+1766577184.664,message_sent,"topic=raw_action, sender=controller"
+1766577184.664,module_execution,module=controller
+1766577184.664,message_sent,"topic=safe_action, sender=shield"
+1766577184.664,module_execution,module=shield
+1766577184.664,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.664,module_execution,module=thermostat_env
+1766577184.664,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.664,module_execution,module=sensor
+1766577184.664,message_sent,"topic=state, sender=estimator"
+1766577184.664,module_execution,module=estimator
+1766577184.664,message_sent,"topic=raw_action, sender=controller"
+1766577184.664,module_execution,module=controller
+1766577184.664,message_sent,"topic=safe_action, sender=shield"
+1766577184.664,module_execution,module=shield
+1766577184.664,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.664,module_execution,module=thermostat_env
+1766577184.664,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.664,module_execution,module=sensor
+1766577184.664,message_sent,"topic=state, sender=estimator"
+1766577184.664,module_execution,module=estimator
+1766577184.664,message_sent,"topic=raw_action, sender=controller"
+1766577184.664,module_execution,module=controller
+1766577184.664,shield_override,"module=shield, raw_delta=10.0, safe_delta=5.0"
+1766577184.664,message_sent,"topic=safe_action, sender=shield"
+1766577184.664,module_execution,module=shield
+1766577184.664,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.664,module_execution,module=thermostat_env
+1766577184.664,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.664,module_execution,module=sensor
+1766577184.664,message_sent,"topic=state, sender=estimator"
+1766577184.664,module_execution,module=estimator
+1766577184.664,message_sent,"topic=raw_action, sender=controller"
+1766577184.664,module_execution,module=controller
+1766577184.664,message_sent,"topic=safe_action, sender=shield"
+1766577184.664,module_execution,module=shield
+1766577184.664,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.664,module_execution,module=thermostat_env
+1766577184.664,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.664,module_execution,module=sensor
+1766577184.664,message_sent,"topic=state, sender=estimator"
+1766577184.664,module_execution,module=estimator
+1766577184.664,message_sent,"topic=raw_action, sender=controller"
+1766577184.664,module_execution,module=controller
+1766577184.664,message_sent,"topic=safe_action, sender=shield"
+1766577184.664,module_execution,module=shield
+1766577184.664,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.664,module_execution,module=thermostat_env
+1766577184.664,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.664,module_execution,module=sensor
+1766577184.664,message_sent,"topic=state, sender=estimator"
+1766577184.664,module_execution,module=estimator
+1766577184.664,message_sent,"topic=raw_action, sender=controller"
+1766577184.664,module_execution,module=controller
+1766577184.664,shield_override,"module=shield, raw_delta=10.0, safe_delta=5.0"
+1766577184.664,message_sent,"topic=safe_action, sender=shield"
+1766577184.664,module_execution,module=shield
+1766577184.664,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.664,module_execution,module=thermostat_env
+1766577184.664,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.664,module_execution,module=sensor
+1766577184.664,message_sent,"topic=state, sender=estimator"
+1766577184.664,module_execution,module=estimator
+1766577184.664,message_sent,"topic=raw_action, sender=controller"
+1766577184.664,module_execution,module=controller
+1766577184.664,message_sent,"topic=safe_action, sender=shield"
+1766577184.664,module_execution,module=shield
+1766577184.664,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.664,module_execution,module=thermostat_env
+1766577184.664,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.664,module_execution,module=sensor
+1766577184.664,message_sent,"topic=state, sender=estimator"
+1766577184.664,module_execution,module=estimator
+1766577184.664,message_sent,"topic=raw_action, sender=controller"
+1766577184.664,module_execution,module=controller
+1766577184.664,message_sent,"topic=safe_action, sender=shield"
+1766577184.664,module_execution,module=shield
+1766577184.664,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.664,module_execution,module=thermostat_env
+1766577184.664,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.664,module_execution,module=sensor
+1766577184.664,message_sent,"topic=state, sender=estimator"
+1766577184.664,module_execution,module=estimator
+1766577184.664,message_sent,"topic=raw_action, sender=controller"
+1766577184.664,module_execution,module=controller
+1766577184.664,message_sent,"topic=safe_action, sender=shield"
+1766577184.664,module_execution,module=shield
+1766577184.664,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.664,module_execution,module=thermostat_env
+1766577184.664,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.664,module_execution,module=sensor
+1766577184.664,message_sent,"topic=state, sender=estimator"
+1766577184.664,module_execution,module=estimator
+1766577184.664,message_sent,"topic=raw_action, sender=controller"
+1766577184.664,module_execution,module=controller
+1766577184.664,message_sent,"topic=safe_action, sender=shield"
+1766577184.664,module_execution,module=shield
+1766577184.664,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.664,module_execution,module=thermostat_env
+1766577184.665,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.665,module_execution,module=sensor
+1766577184.665,message_sent,"topic=state, sender=estimator"
+1766577184.665,module_execution,module=estimator
+1766577184.665,message_sent,"topic=raw_action, sender=controller"
+1766577184.665,module_execution,module=controller
+1766577184.665,shield_override,"module=shield, raw_delta=10.0, safe_delta=5.0"
+1766577184.665,message_sent,"topic=safe_action, sender=shield"
+1766577184.665,module_execution,module=shield
+1766577184.665,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.665,module_execution,module=thermostat_env
+1766577184.665,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.665,module_execution,module=sensor
+1766577184.665,message_sent,"topic=state, sender=estimator"
+1766577184.665,module_execution,module=estimator
+1766577184.665,message_sent,"topic=raw_action, sender=controller"
+1766577184.665,module_execution,module=controller
+1766577184.665,message_sent,"topic=safe_action, sender=shield"
+1766577184.665,module_execution,module=shield
+1766577184.665,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.665,module_execution,module=thermostat_env
+1766577184.665,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.665,module_execution,module=sensor
+1766577184.665,message_sent,"topic=state, sender=estimator"
+1766577184.665,module_execution,module=estimator
+1766577184.665,message_sent,"topic=raw_action, sender=controller"
+1766577184.665,module_execution,module=controller
+1766577184.665,message_sent,"topic=safe_action, sender=shield"
+1766577184.665,module_execution,module=shield
+1766577184.665,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.665,module_execution,module=thermostat_env
+1766577184.665,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.665,module_execution,module=sensor
+1766577184.665,message_sent,"topic=state, sender=estimator"
+1766577184.665,module_execution,module=estimator
+1766577184.665,message_sent,"topic=raw_action, sender=controller"
+1766577184.665,module_execution,module=controller
+1766577184.665,message_sent,"topic=safe_action, sender=shield"
+1766577184.665,module_execution,module=shield
+1766577184.665,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.665,module_execution,module=thermostat_env
+1766577184.665,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.665,module_execution,module=sensor
+1766577184.665,message_sent,"topic=state, sender=estimator"
+1766577184.665,module_execution,module=estimator
+1766577184.665,message_sent,"topic=raw_action, sender=controller"
+1766577184.665,module_execution,module=controller
+1766577184.665,message_sent,"topic=safe_action, sender=shield"
+1766577184.665,module_execution,module=shield
+1766577184.665,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.665,module_execution,module=thermostat_env
+1766577184.665,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.665,module_execution,module=sensor
+1766577184.665,message_sent,"topic=state, sender=estimator"
+1766577184.665,module_execution,module=estimator
+1766577184.665,message_sent,"topic=raw_action, sender=controller"
+1766577184.665,module_execution,module=controller
+1766577184.665,message_sent,"topic=safe_action, sender=shield"
+1766577184.665,module_execution,module=shield
+1766577184.665,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.665,module_execution,module=thermostat_env
+1766577184.665,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.665,module_execution,module=sensor
+1766577184.665,message_sent,"topic=state, sender=estimator"
+1766577184.665,module_execution,module=estimator
+1766577184.665,message_sent,"topic=raw_action, sender=controller"
+1766577184.665,module_execution,module=controller
+1766577184.665,message_sent,"topic=safe_action, sender=shield"
+1766577184.665,module_execution,module=shield
+1766577184.665,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.665,module_execution,module=thermostat_env
+1766577184.665,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.665,module_execution,module=sensor
+1766577184.665,message_sent,"topic=state, sender=estimator"
+1766577184.665,module_execution,module=estimator
+1766577184.665,message_sent,"topic=raw_action, sender=controller"
+1766577184.665,module_execution,module=controller
+1766577184.665,message_sent,"topic=safe_action, sender=shield"
+1766577184.665,module_execution,module=shield
+1766577184.665,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.665,module_execution,module=thermostat_env
+1766577184.665,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.665,module_execution,module=sensor
+1766577184.665,message_sent,"topic=state, sender=estimator"
+1766577184.665,module_execution,module=estimator
+1766577184.665,message_sent,"topic=raw_action, sender=controller"
+1766577184.665,module_execution,module=controller
+1766577184.665,shield_override,"module=shield, raw_delta=10.0, safe_delta=5.0"
+1766577184.665,message_sent,"topic=safe_action, sender=shield"
+1766577184.665,module_execution,module=shield
+1766577184.665,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.665,module_execution,module=thermostat_env
+1766577184.665,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.665,module_execution,module=sensor
+1766577184.665,message_sent,"topic=state, sender=estimator"
+1766577184.665,module_execution,module=estimator
+1766577184.665,message_sent,"topic=raw_action, sender=controller"
+1766577184.665,module_execution,module=controller
+1766577184.665,message_sent,"topic=safe_action, sender=shield"
+1766577184.665,module_execution,module=shield
+1766577184.665,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.665,module_execution,module=thermostat_env
+1766577184.665,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.665,module_execution,module=sensor
+1766577184.665,message_sent,"topic=state, sender=estimator"
+1766577184.665,module_execution,module=estimator
+1766577184.665,message_sent,"topic=raw_action, sender=controller"
+1766577184.665,module_execution,module=controller
+1766577184.665,message_sent,"topic=safe_action, sender=shield"
+1766577184.665,module_execution,module=shield
+1766577184.666,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.666,module_execution,module=thermostat_env
+1766577184.666,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.666,module_execution,module=sensor
+1766577184.666,message_sent,"topic=state, sender=estimator"
+1766577184.666,module_execution,module=estimator
+1766577184.666,message_sent,"topic=raw_action, sender=controller"
+1766577184.666,module_execution,module=controller
+1766577184.666,message_sent,"topic=safe_action, sender=shield"
+1766577184.666,module_execution,module=shield
+1766577184.666,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.666,module_execution,module=thermostat_env
+1766577184.666,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.666,module_execution,module=sensor
+1766577184.666,message_sent,"topic=state, sender=estimator"
+1766577184.666,module_execution,module=estimator
+1766577184.666,message_sent,"topic=raw_action, sender=controller"
+1766577184.666,module_execution,module=controller
+1766577184.666,message_sent,"topic=safe_action, sender=shield"
+1766577184.666,module_execution,module=shield
+1766577184.666,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.666,module_execution,module=thermostat_env
+1766577184.666,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.666,module_execution,module=sensor
+1766577184.666,message_sent,"topic=state, sender=estimator"
+1766577184.666,module_execution,module=estimator
+1766577184.666,message_sent,"topic=raw_action, sender=controller"
+1766577184.666,module_execution,module=controller
+1766577184.666,message_sent,"topic=safe_action, sender=shield"
+1766577184.666,module_execution,module=shield
+1766577184.666,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.666,module_execution,module=thermostat_env
+1766577184.666,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.666,module_execution,module=sensor
+1766577184.666,message_sent,"topic=state, sender=estimator"
+1766577184.666,module_execution,module=estimator
+1766577184.666,message_sent,"topic=raw_action, sender=controller"
+1766577184.666,module_execution,module=controller
+1766577184.666,message_sent,"topic=safe_action, sender=shield"
+1766577184.666,module_execution,module=shield
+1766577184.666,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.666,module_execution,module=thermostat_env
+1766577184.666,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.666,module_execution,module=sensor
+1766577184.666,message_sent,"topic=state, sender=estimator"
+1766577184.666,module_execution,module=estimator
+1766577184.666,message_sent,"topic=raw_action, sender=controller"
+1766577184.666,module_execution,module=controller
+1766577184.666,shield_override,"module=shield, raw_delta=10.0, safe_delta=5.0"
+1766577184.666,message_sent,"topic=safe_action, sender=shield"
+1766577184.666,module_execution,module=shield
+1766577184.666,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.666,module_execution,module=thermostat_env
+1766577184.666,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.666,module_execution,module=sensor
+1766577184.666,message_sent,"topic=state, sender=estimator"
+1766577184.666,module_execution,module=estimator
+1766577184.666,message_sent,"topic=raw_action, sender=controller"
+1766577184.666,module_execution,module=controller
+1766577184.666,message_sent,"topic=safe_action, sender=shield"
+1766577184.666,module_execution,module=shield
+1766577184.666,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.666,module_execution,module=thermostat_env
+1766577184.666,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.666,module_execution,module=sensor
+1766577184.666,message_sent,"topic=state, sender=estimator"
+1766577184.666,module_execution,module=estimator
+1766577184.666,message_sent,"topic=raw_action, sender=controller"
+1766577184.666,module_execution,module=controller
+1766577184.666,shield_override,"module=shield, raw_delta=10.0, safe_delta=5.0"
+1766577184.666,message_sent,"topic=safe_action, sender=shield"
+1766577184.666,module_execution,module=shield
+1766577184.666,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.666,module_execution,module=thermostat_env
+1766577184.666,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.666,module_execution,module=sensor
+1766577184.666,message_sent,"topic=state, sender=estimator"
+1766577184.666,module_execution,module=estimator
+1766577184.666,message_sent,"topic=raw_action, sender=controller"
+1766577184.666,module_execution,module=controller
+1766577184.666,message_sent,"topic=safe_action, sender=shield"
+1766577184.666,module_execution,module=shield
+1766577184.666,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.666,module_execution,module=thermostat_env
+1766577184.666,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.666,module_execution,module=sensor
+1766577184.666,message_sent,"topic=state, sender=estimator"
+1766577184.666,module_execution,module=estimator
+1766577184.666,message_sent,"topic=raw_action, sender=controller"
+1766577184.666,module_execution,module=controller
+1766577184.666,message_sent,"topic=safe_action, sender=shield"
+1766577184.666,module_execution,module=shield
+1766577184.666,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.666,module_execution,module=thermostat_env
+1766577184.666,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.666,module_execution,module=sensor
+1766577184.666,message_sent,"topic=state, sender=estimator"
+1766577184.666,module_execution,module=estimator
+1766577184.666,message_sent,"topic=raw_action, sender=controller"
+1766577184.666,module_execution,module=controller
+1766577184.666,message_sent,"topic=safe_action, sender=shield"
+1766577184.666,module_execution,module=shield
+1766577184.666,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.666,module_execution,module=thermostat_env
+1766577184.666,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.666,module_execution,module=sensor
+1766577184.666,message_sent,"topic=state, sender=estimator"
+1766577184.666,module_execution,module=estimator
+1766577184.666,message_sent,"topic=raw_action, sender=controller"
+1766577184.666,module_execution,module=controller
+1766577184.666,message_sent,"topic=safe_action, sender=shield"
+1766577184.666,module_execution,module=shield
+1766577184.666,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.666,module_execution,module=thermostat_env
+1766577184.666,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.666,module_execution,module=sensor
+1766577184.667,message_sent,"topic=state, sender=estimator"
+1766577184.667,module_execution,module=estimator
+1766577184.667,message_sent,"topic=raw_action, sender=controller"
+1766577184.667,module_execution,module=controller
+1766577184.667,message_sent,"topic=safe_action, sender=shield"
+1766577184.667,module_execution,module=shield
+1766577184.667,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.667,module_execution,module=thermostat_env
+1766577184.667,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.667,module_execution,module=sensor
+1766577184.667,message_sent,"topic=state, sender=estimator"
+1766577184.667,module_execution,module=estimator
+1766577184.667,message_sent,"topic=raw_action, sender=controller"
+1766577184.667,module_execution,module=controller
+1766577184.667,message_sent,"topic=safe_action, sender=shield"
+1766577184.667,module_execution,module=shield
+1766577184.667,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.667,module_execution,module=thermostat_env
+1766577184.667,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.667,module_execution,module=sensor
+1766577184.667,message_sent,"topic=state, sender=estimator"
+1766577184.667,module_execution,module=estimator
+1766577184.667,message_sent,"topic=raw_action, sender=controller"
+1766577184.667,module_execution,module=controller
+1766577184.667,shield_override,"module=shield, raw_delta=10.0, safe_delta=5.0"
+1766577184.667,message_sent,"topic=safe_action, sender=shield"
+1766577184.667,module_execution,module=shield
+1766577184.667,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.667,module_execution,module=thermostat_env
+1766577184.667,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.667,module_execution,module=sensor
+1766577184.667,message_sent,"topic=state, sender=estimator"
+1766577184.667,module_execution,module=estimator
+1766577184.667,message_sent,"topic=raw_action, sender=controller"
+1766577184.667,module_execution,module=controller
+1766577184.667,message_sent,"topic=safe_action, sender=shield"
+1766577184.667,module_execution,module=shield
+1766577184.667,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.667,module_execution,module=thermostat_env
+1766577184.667,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.667,module_execution,module=sensor
+1766577184.667,message_sent,"topic=state, sender=estimator"
+1766577184.667,module_execution,module=estimator
+1766577184.667,message_sent,"topic=raw_action, sender=controller"
+1766577184.667,module_execution,module=controller
+1766577184.667,message_sent,"topic=safe_action, sender=shield"
+1766577184.667,module_execution,module=shield
+1766577184.667,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.667,module_execution,module=thermostat_env
+1766577184.667,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.667,module_execution,module=sensor
+1766577184.667,message_sent,"topic=state, sender=estimator"
+1766577184.667,module_execution,module=estimator
+1766577184.667,message_sent,"topic=raw_action, sender=controller"
+1766577184.667,module_execution,module=controller
+1766577184.667,message_sent,"topic=safe_action, sender=shield"
+1766577184.667,module_execution,module=shield
+1766577184.667,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.667,module_execution,module=thermostat_env
+1766577184.667,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.667,module_execution,module=sensor
+1766577184.667,message_sent,"topic=state, sender=estimator"
+1766577184.667,module_execution,module=estimator
+1766577184.667,message_sent,"topic=raw_action, sender=controller"
+1766577184.667,module_execution,module=controller
+1766577184.667,message_sent,"topic=safe_action, sender=shield"
+1766577184.667,module_execution,module=shield
+1766577184.667,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.667,module_execution,module=thermostat_env
+1766577184.667,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.667,module_execution,module=sensor
+1766577184.667,message_sent,"topic=state, sender=estimator"
+1766577184.667,module_execution,module=estimator
+1766577184.667,message_sent,"topic=raw_action, sender=controller"
+1766577184.667,module_execution,module=controller
+1766577184.667,message_sent,"topic=safe_action, sender=shield"
+1766577184.667,module_execution,module=shield
+1766577184.667,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.667,module_execution,module=thermostat_env
+1766577184.667,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.667,module_execution,module=sensor
+1766577184.667,message_sent,"topic=state, sender=estimator"
+1766577184.667,module_execution,module=estimator
+1766577184.667,message_sent,"topic=raw_action, sender=controller"
+1766577184.667,module_execution,module=controller
+1766577184.667,message_sent,"topic=safe_action, sender=shield"
+1766577184.667,module_execution,module=shield
+1766577184.667,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.667,module_execution,module=thermostat_env
+1766577184.667,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.667,module_execution,module=sensor
+1766577184.667,message_sent,"topic=state, sender=estimator"
+1766577184.667,module_execution,module=estimator
+1766577184.667,message_sent,"topic=raw_action, sender=controller"
+1766577184.667,module_execution,module=controller
+1766577184.667,message_sent,"topic=safe_action, sender=shield"
+1766577184.667,module_execution,module=shield
+1766577184.667,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.667,module_execution,module=thermostat_env
+1766577184.667,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.667,module_execution,module=sensor
+1766577184.667,message_sent,"topic=state, sender=estimator"
+1766577184.667,module_execution,module=estimator
+1766577184.667,message_sent,"topic=raw_action, sender=controller"
+1766577184.667,module_execution,module=controller
+1766577184.667,message_sent,"topic=safe_action, sender=shield"
+1766577184.667,module_execution,module=shield
+1766577184.667,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.667,module_execution,module=thermostat_env
+1766577184.667,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.667,module_execution,module=sensor
+1766577184.667,message_sent,"topic=state, sender=estimator"
+1766577184.667,module_execution,module=estimator
+1766577184.667,message_sent,"topic=raw_action, sender=controller"
+1766577184.667,module_execution,module=controller
+1766577184.668,shield_override,"module=shield, raw_delta=10.0, safe_delta=5.0"
+1766577184.668,message_sent,"topic=safe_action, sender=shield"
+1766577184.668,module_execution,module=shield
+1766577184.668,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.668,module_execution,module=thermostat_env
+1766577184.668,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.668,module_execution,module=sensor
+1766577184.668,message_sent,"topic=state, sender=estimator"
+1766577184.668,module_execution,module=estimator
+1766577184.668,message_sent,"topic=raw_action, sender=controller"
+1766577184.668,module_execution,module=controller
+1766577184.668,message_sent,"topic=safe_action, sender=shield"
+1766577184.668,module_execution,module=shield
+1766577184.668,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.668,module_execution,module=thermostat_env
+1766577184.668,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.668,module_execution,module=sensor
+1766577184.668,message_sent,"topic=state, sender=estimator"
+1766577184.668,module_execution,module=estimator
+1766577184.668,message_sent,"topic=raw_action, sender=controller"
+1766577184.668,module_execution,module=controller
+1766577184.668,message_sent,"topic=safe_action, sender=shield"
+1766577184.668,module_execution,module=shield
+1766577184.668,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.668,module_execution,module=thermostat_env
+1766577184.668,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.668,module_execution,module=sensor
+1766577184.668,message_sent,"topic=state, sender=estimator"
+1766577184.668,module_execution,module=estimator
+1766577184.668,message_sent,"topic=raw_action, sender=controller"
+1766577184.668,module_execution,module=controller
+1766577184.668,message_sent,"topic=safe_action, sender=shield"
+1766577184.668,module_execution,module=shield
+1766577184.668,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.668,module_execution,module=thermostat_env
+1766577184.668,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.668,module_execution,module=sensor
+1766577184.668,message_sent,"topic=state, sender=estimator"
+1766577184.668,module_execution,module=estimator
+1766577184.668,message_sent,"topic=raw_action, sender=controller"
+1766577184.668,module_execution,module=controller
+1766577184.668,message_sent,"topic=safe_action, sender=shield"
+1766577184.668,module_execution,module=shield
+1766577184.668,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.668,module_execution,module=thermostat_env
+1766577184.668,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.668,module_execution,module=sensor
+1766577184.668,message_sent,"topic=state, sender=estimator"
+1766577184.668,module_execution,module=estimator
+1766577184.668,message_sent,"topic=raw_action, sender=controller"
+1766577184.668,module_execution,module=controller
+1766577184.668,message_sent,"topic=safe_action, sender=shield"
+1766577184.668,module_execution,module=shield
+1766577184.668,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.668,module_execution,module=thermostat_env
+1766577184.668,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.668,module_execution,module=sensor
+1766577184.668,message_sent,"topic=state, sender=estimator"
+1766577184.668,module_execution,module=estimator
+1766577184.668,message_sent,"topic=raw_action, sender=controller"
+1766577184.668,module_execution,module=controller
+1766577184.668,message_sent,"topic=safe_action, sender=shield"
+1766577184.668,module_execution,module=shield
+1766577184.668,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.668,module_execution,module=thermostat_env
+1766577184.668,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.668,module_execution,module=sensor
+1766577184.668,message_sent,"topic=state, sender=estimator"
+1766577184.668,module_execution,module=estimator
+1766577184.668,message_sent,"topic=raw_action, sender=controller"
+1766577184.668,module_execution,module=controller
+1766577184.668,shield_override,"module=shield, raw_delta=10.0, safe_delta=5.0"
+1766577184.668,message_sent,"topic=safe_action, sender=shield"
+1766577184.668,module_execution,module=shield
+1766577184.668,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.668,module_execution,module=thermostat_env
+1766577184.668,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.668,module_execution,module=sensor
+1766577184.668,message_sent,"topic=state, sender=estimator"
+1766577184.668,module_execution,module=estimator
+1766577184.668,message_sent,"topic=raw_action, sender=controller"
+1766577184.668,module_execution,module=controller
+1766577184.668,message_sent,"topic=safe_action, sender=shield"
+1766577184.668,module_execution,module=shield
+1766577184.668,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.668,module_execution,module=thermostat_env
+1766577184.668,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.668,module_execution,module=sensor
+1766577184.668,message_sent,"topic=state, sender=estimator"
+1766577184.668,module_execution,module=estimator
+1766577184.668,message_sent,"topic=raw_action, sender=controller"
+1766577184.668,module_execution,module=controller
+1766577184.668,message_sent,"topic=safe_action, sender=shield"
+1766577184.668,module_execution,module=shield
+1766577184.668,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.668,module_execution,module=thermostat_env
+1766577184.668,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.668,module_execution,module=sensor
+1766577184.668,message_sent,"topic=state, sender=estimator"
+1766577184.668,module_execution,module=estimator
+1766577184.668,message_sent,"topic=raw_action, sender=controller"
+1766577184.668,module_execution,module=controller
+1766577184.668,message_sent,"topic=safe_action, sender=shield"
+1766577184.668,module_execution,module=shield
+1766577184.668,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.668,module_execution,module=thermostat_env
+1766577184.668,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.668,module_execution,module=sensor
+1766577184.668,message_sent,"topic=state, sender=estimator"
+1766577184.668,module_execution,module=estimator
+1766577184.668,message_sent,"topic=raw_action, sender=controller"
+1766577184.668,module_execution,module=controller
+1766577184.668,message_sent,"topic=safe_action, sender=shield"
+1766577184.668,module_execution,module=shield
+1766577184.668,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.668,module_execution,module=thermostat_env
+1766577184.668,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.668,module_execution,module=sensor
+1766577184.668,message_sent,"topic=state, sender=estimator"
+1766577184.668,module_execution,module=estimator
+1766577184.669,message_sent,"topic=raw_action, sender=controller"
+1766577184.669,module_execution,module=controller
+1766577184.669,message_sent,"topic=safe_action, sender=shield"
+1766577184.669,module_execution,module=shield
+1766577184.669,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.669,module_execution,module=thermostat_env
+1766577184.669,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.669,module_execution,module=sensor
+1766577184.669,message_sent,"topic=state, sender=estimator"
+1766577184.669,module_execution,module=estimator
+1766577184.669,message_sent,"topic=raw_action, sender=controller"
+1766577184.669,module_execution,module=controller
+1766577184.669,message_sent,"topic=safe_action, sender=shield"
+1766577184.669,module_execution,module=shield
+1766577184.669,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.669,module_execution,module=thermostat_env
+1766577184.669,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.669,module_execution,module=sensor
+1766577184.669,message_sent,"topic=state, sender=estimator"
+1766577184.669,module_execution,module=estimator
+1766577184.669,message_sent,"topic=raw_action, sender=controller"
+1766577184.669,module_execution,module=controller
+1766577184.669,message_sent,"topic=safe_action, sender=shield"
+1766577184.669,module_execution,module=shield
+1766577184.669,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.669,module_execution,module=thermostat_env
+1766577184.669,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.669,module_execution,module=sensor
+1766577184.669,message_sent,"topic=state, sender=estimator"
+1766577184.669,module_execution,module=estimator
+1766577184.669,message_sent,"topic=raw_action, sender=controller"
+1766577184.669,module_execution,module=controller
+1766577184.669,message_sent,"topic=safe_action, sender=shield"
+1766577184.669,module_execution,module=shield
+1766577184.669,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.669,module_execution,module=thermostat_env
+1766577184.669,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.669,module_execution,module=sensor
+1766577184.669,message_sent,"topic=state, sender=estimator"
+1766577184.669,module_execution,module=estimator
+1766577184.669,message_sent,"topic=raw_action, sender=controller"
+1766577184.669,module_execution,module=controller
+1766577184.669,message_sent,"topic=safe_action, sender=shield"
+1766577184.669,module_execution,module=shield
+1766577184.669,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.669,module_execution,module=thermostat_env
+1766577184.669,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.669,module_execution,module=sensor
+1766577184.669,message_sent,"topic=state, sender=estimator"
+1766577184.669,module_execution,module=estimator
+1766577184.669,message_sent,"topic=raw_action, sender=controller"
+1766577184.669,module_execution,module=controller
+1766577184.669,message_sent,"topic=safe_action, sender=shield"
+1766577184.669,module_execution,module=shield
+1766577184.669,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.669,module_execution,module=thermostat_env
+1766577184.669,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.669,module_execution,module=sensor
+1766577184.669,message_sent,"topic=state, sender=estimator"
+1766577184.669,module_execution,module=estimator
+1766577184.669,message_sent,"topic=raw_action, sender=controller"
+1766577184.669,module_execution,module=controller
+1766577184.669,message_sent,"topic=safe_action, sender=shield"
+1766577184.669,module_execution,module=shield
+1766577184.669,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.669,module_execution,module=thermostat_env
+1766577184.669,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.669,module_execution,module=sensor
+1766577184.669,message_sent,"topic=state, sender=estimator"
+1766577184.669,module_execution,module=estimator
+1766577184.669,message_sent,"topic=raw_action, sender=controller"
+1766577184.669,module_execution,module=controller
+1766577184.669,message_sent,"topic=safe_action, sender=shield"
+1766577184.669,module_execution,module=shield
+1766577184.669,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.669,module_execution,module=thermostat_env
+1766577184.669,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.669,module_execution,module=sensor
+1766577184.669,message_sent,"topic=state, sender=estimator"
+1766577184.669,module_execution,module=estimator
+1766577184.669,message_sent,"topic=raw_action, sender=controller"
+1766577184.669,module_execution,module=controller
+1766577184.669,message_sent,"topic=safe_action, sender=shield"
+1766577184.669,module_execution,module=shield
+1766577184.669,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.669,module_execution,module=thermostat_env
+1766577184.669,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.669,module_execution,module=sensor
+1766577184.669,message_sent,"topic=state, sender=estimator"
+1766577184.669,module_execution,module=estimator
+1766577184.669,message_sent,"topic=raw_action, sender=controller"
+1766577184.669,module_execution,module=controller
+1766577184.669,message_sent,"topic=safe_action, sender=shield"
+1766577184.669,module_execution,module=shield
+1766577184.669,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.669,module_execution,module=thermostat_env
+1766577184.669,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.669,module_execution,module=sensor
+1766577184.669,message_sent,"topic=state, sender=estimator"
+1766577184.669,module_execution,module=estimator
+1766577184.669,message_sent,"topic=raw_action, sender=controller"
+1766577184.669,module_execution,module=controller
+1766577184.669,message_sent,"topic=safe_action, sender=shield"
+1766577184.669,module_execution,module=shield
+1766577184.669,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.669,module_execution,module=thermostat_env
+1766577184.669,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.669,module_execution,module=sensor
+1766577184.669,message_sent,"topic=state, sender=estimator"
+1766577184.669,module_execution,module=estimator
+1766577184.669,message_sent,"topic=raw_action, sender=controller"
+1766577184.669,module_execution,module=controller
+1766577184.669,message_sent,"topic=safe_action, sender=shield"
+1766577184.669,module_execution,module=shield
+1766577184.669,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.669,module_execution,module=thermostat_env
+1766577184.669,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.669,module_execution,module=sensor
+1766577184.669,message_sent,"topic=state, sender=estimator"
+1766577184.669,module_execution,module=estimator
+1766577184.669,message_sent,"topic=raw_action, sender=controller"
+1766577184.669,module_execution,module=controller
+1766577184.669,message_sent,"topic=safe_action, sender=shield"
+1766577184.669,module_execution,module=shield
+1766577184.670,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.670,module_execution,module=thermostat_env
+1766577184.670,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.670,module_execution,module=sensor
+1766577184.670,message_sent,"topic=state, sender=estimator"
+1766577184.670,module_execution,module=estimator
+1766577184.670,message_sent,"topic=raw_action, sender=controller"
+1766577184.670,module_execution,module=controller
+1766577184.670,message_sent,"topic=safe_action, sender=shield"
+1766577184.670,module_execution,module=shield
+1766577184.670,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.670,module_execution,module=thermostat_env
+1766577184.670,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.670,module_execution,module=sensor
+1766577184.670,message_sent,"topic=state, sender=estimator"
+1766577184.670,module_execution,module=estimator
+1766577184.670,message_sent,"topic=raw_action, sender=controller"
+1766577184.670,module_execution,module=controller
+1766577184.670,message_sent,"topic=safe_action, sender=shield"
+1766577184.670,module_execution,module=shield
+1766577184.670,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.670,module_execution,module=thermostat_env
+1766577184.670,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.670,module_execution,module=sensor
+1766577184.670,message_sent,"topic=state, sender=estimator"
+1766577184.670,module_execution,module=estimator
+1766577184.670,message_sent,"topic=raw_action, sender=controller"
+1766577184.670,module_execution,module=controller
+1766577184.670,message_sent,"topic=safe_action, sender=shield"
+1766577184.670,module_execution,module=shield
+1766577184.670,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.670,module_execution,module=thermostat_env
+1766577184.670,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.670,module_execution,module=sensor
+1766577184.670,message_sent,"topic=state, sender=estimator"
+1766577184.670,module_execution,module=estimator
+1766577184.670,message_sent,"topic=raw_action, sender=controller"
+1766577184.670,module_execution,module=controller
+1766577184.670,message_sent,"topic=safe_action, sender=shield"
+1766577184.670,module_execution,module=shield
+1766577184.670,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.670,module_execution,module=thermostat_env
+1766577184.670,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.670,module_execution,module=sensor
+1766577184.670,message_sent,"topic=state, sender=estimator"
+1766577184.670,module_execution,module=estimator
+1766577184.670,message_sent,"topic=raw_action, sender=controller"
+1766577184.670,module_execution,module=controller
+1766577184.670,message_sent,"topic=safe_action, sender=shield"
+1766577184.670,module_execution,module=shield
+1766577184.670,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.670,module_execution,module=thermostat_env
+1766577184.670,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.670,module_execution,module=sensor
+1766577184.670,message_sent,"topic=state, sender=estimator"
+1766577184.670,module_execution,module=estimator
+1766577184.670,message_sent,"topic=raw_action, sender=controller"
+1766577184.670,module_execution,module=controller
+1766577184.670,message_sent,"topic=safe_action, sender=shield"
+1766577184.670,module_execution,module=shield
+1766577184.670,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.670,module_execution,module=thermostat_env
+1766577184.670,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.670,module_execution,module=sensor
+1766577184.670,message_sent,"topic=state, sender=estimator"
+1766577184.670,module_execution,module=estimator
+1766577184.670,message_sent,"topic=raw_action, sender=controller"
+1766577184.670,module_execution,module=controller
+1766577184.670,message_sent,"topic=safe_action, sender=shield"
+1766577184.670,module_execution,module=shield
+1766577184.670,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.670,module_execution,module=thermostat_env
+1766577184.670,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.670,module_execution,module=sensor
+1766577184.670,message_sent,"topic=state, sender=estimator"
+1766577184.670,module_execution,module=estimator
+1766577184.670,message_sent,"topic=raw_action, sender=controller"
+1766577184.670,module_execution,module=controller
+1766577184.670,message_sent,"topic=safe_action, sender=shield"
+1766577184.670,module_execution,module=shield
+1766577184.670,message_sent,"topic=true_temp, sender=thermostat_env"
+1766577184.670,module_execution,module=thermostat_env
+1766577184.670,message_sent,"topic=raw_temp, sender=sensor"
+1766577184.670,module_execution,module=sensor
+1766577184.670,message_sent,"topic=state, sender=estimator"

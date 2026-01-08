@@ -1,0 +1,6 @@
+timestamp,event_type,details
+1766575410.985,info,msg=Module loaded: ThermostatEnv from modules.thermostat_env
+1766575410.986,info,msg=Module loaded: Sensor from modules.sensor
+1766575410.986,info,msg=Module loaded: Controller from modules.controller
+1766575410.986,info,msg=Module loaded: Shield from modules.shield
+1766575410.987,info,msg=Module loaded: Estimator from modules.estimator
