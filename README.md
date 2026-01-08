@@ -117,7 +117,6 @@ The runtime terminates automatically when an episode ends or when a defined term
 
 ---
 
-Soll ich noch eine Tabelle für die Konfigurationsparameter oder einen speziellen "Troubleshooting"-Block hinzufügen?
 
 ## Core Runtime Components in ORCA-Next
 
