@@ -1,6 +1,6 @@
-Core Runtime Components in ORCA-Next
+### Core Runtime Components in ORCA-Next
 
-Runtime
+## Runtime
 
 The Runtime acts as the central execution manager of an ORCA-Next system. It is responsible for initializing, orchestrating, and supervising the overall execution.
 
@@ -14,7 +14,7 @@ Concretely, the runtime:
 The runtime defines the outer control boundary of the system and ensures that all components are executed exclusively through the framework, not via direct inter-module calls.
 
 
-Scheduler
+## Scheduler
 
 The Scheduler enforces the temporal execution semantics of the system. It determines when modules are executed and ensures compliance with declared timing constraints.
 
@@ -27,7 +27,7 @@ Its responsibilities include:
 By separating scheduling from module logic, ORCA-Next prevents implicit timing assumptions and makes execution behavior explicit and analyzable.
 
 
-Mediator
+## Mediator
 
 The Mediator provides the communication infrastructure of the execution graph. All data exchange between modules is routed exclusively through the mediator.
 
@@ -40,7 +40,7 @@ Specifically, the mediator:
 The mediator does not interpret or modify message contents. Its sole purpose is to make data flow explicit, observable, and framework-controlled.
 
 
-Base Module
+## Base Module
 
 The Base Module is an abstract superclass from which all functional modules inherit. It defines the minimal interface required for integration into the ORCA-Next runtime.
 
@@ -52,7 +52,7 @@ It typically:
 This abstraction ensures that all modules remain manageable, schedulable, and interchangeable within the framework.
 
 
-Message Abstraction
+## Message Abstraction
 
 The Message abstraction defines the standardized data exchange format used throughout the system.
 
