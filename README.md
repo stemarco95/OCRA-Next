@@ -115,7 +115,7 @@ ORCA-Next supports multiple execution modes:
 
 The runtime terminates automatically when an episode ends or when a defined termination condition is reached. Execution can also be stopped manually (e.g., via keyboard interrupt `Ctrl+C`).
 
----
+
 
 
 # Core Runtime Components in ORCA-Next
@@ -132,7 +132,7 @@ Concretely, the runtime:
 - supervises execution state, logging, and controlled startup and shutdown.
 
 The runtime defines the outer control boundary of the system and ensures that all components are executed exclusively through the framework, not via direct inter-module calls.
-
+---
 
 ### Scheduler
 
@@ -145,7 +145,7 @@ Its responsibilities include:
 - reporting warnings or errors in case of timing violations or scheduling conflicts.
 
 By separating scheduling from module logic, ORCA-Next prevents implicit timing assumptions and makes execution behavior explicit and analyzable.
-
+---
 
 ### Mediator
 
@@ -158,7 +158,7 @@ Specifically, the mediator:
 - optionally supports buffering, prioritization, and message logging.
 
 The mediator does not interpret or modify message contents. Its sole purpose is to make data flow explicit, observable, and framework-controlled.
-
+---
 
 ### Base Module
 
@@ -170,7 +170,7 @@ It typically:
 - exposes module metadata required by the scheduler and mediator.
 
 This abstraction ensures that all modules remain manageable, schedulable, and interchangeable within the framework.
-
+---
 
 ### Message Abstraction
 
