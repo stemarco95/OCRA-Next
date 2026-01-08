@@ -51,7 +51,7 @@ cd ORCA-Next
 
 ### Step 2: Configure the Execution Graph
 
-The system structure is defined in `architecture.json`. This file specifies:
+The system structure is defined in a `json` file (in the configs folder). This file specifies:
 
 * Which modules are instantiated
 * How modules are connected via message topics
