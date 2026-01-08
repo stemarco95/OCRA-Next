@@ -30,10 +30,6 @@ ORCA-Next is designed to be:
 - extensible
 - suitable for experimentation and research prototypes
 
-Entschuldige, da habe ich dich missverstanden! Hier ist dein Text, sauber und einheitlich als Markdown formatiert, sodass du ihn direkt kopieren kannst:
-
----
-
 # How to Run ORCA-Next
 
 This section describes how to start ORCA-Next and execute a configured system.
